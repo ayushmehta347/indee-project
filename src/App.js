@@ -19,7 +19,13 @@ export default {
 function generateCards(start, end) {
   const cards = [];
   for (let i = start; i <= end; i++) {
-    cards.push({ img: require(`./assets/images/image${i}.png`), title: imageData[i - 1].title });
+    const {img}={img: require(`./assets/images/image${i}.png`)};
+    const {  title, status } = imageData[i - 1];
+    if (status === "false") {
+      cards.push({ img, title });
+    } else {
+      cards.push({ img, title, status: "New" });
+    }
   }
   return cards;
 }
