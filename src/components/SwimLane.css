@@ -73,10 +73,11 @@ h2 {
 }
 
 .new-label {
+  text-align: center;
  margin-top: -11px;
- margin-bottom: 2px;
- width: fit-content;
-  padding: 2px;
+ margin-bottom: 5px;
+    width: 28px;
+  padding: 3px;
   background-color: #efaa31;
   color: black;
   font-weight: bold;
