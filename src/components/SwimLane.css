@@ -38,45 +38,44 @@ h2 {
 }
 
 .card-title {
-      background-image:  linear-gradient(90deg, #1C1C1E 33.33%, #121212 65.62%);
-        border-radius: 2px;
-        height: 3rem;
-        background-color: rgba(0, 0, 0, 0.58);
-        text-align: start;
-        font-size: 9px;
-        margin: 0;
-        color: white;
-        padding: 8px;
-        display: flex;
-        align-items: center;
+  background-image: linear-gradient(90deg, #1C1C1E 33.33%, #121212 65.62%);
+  border-radius: 2px;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.58);
+  text-align: start;
+  font-size: 10px;
+  margin: 0;
+  color: white;
+  padding: 8px;
+  display: flex;
+  align-items: center;
 }
 
 .nav-button {
-  height: 251px;
-  /* background-color: rgba(0, 0, 0, 0.378); */
+  height: 275px;
   background: rgba(0, 0, 0, 0.378);
   border: none;
-  color: #060606;
+  color: white;
   padding: 10px;
   cursor: pointer;
-  font-size: 1.2em;
+  font-size: 3em;
 }
 
 .nav-button.left {
+  left: -74px;
   position: absolute;
-  right: -40px;
+  width: 4rem;
 }
-
 .nav-button.right {
+  width: 4rem;
   position: absolute;
-  right: -40px;
+  right: -73px;
 }
-
 .new-label {
   text-align: center;
- margin-top: -11px;
- margin-bottom: 5px;
-    width: 28px;
+  margin-top: -11px;
+  margin-bottom: 5px;
+  width: 28px;
   padding: 3px;
   background-color: #efaa31;
   color: black;
@@ -84,7 +83,8 @@ h2 {
   font-size: 12px;
   border-radius: 2px;
 }
-.title{
+
+.title {
   display: flex;
   flex-direction: column;
 }

@@ -12,7 +12,7 @@ export default {
   },
   computed: {
     visibleCards() {
-      return this.cards.slice(this.startIndex, this.startIndex + 6);
+      return this.cards.slice(this.startIndex, this.startIndex + 7);
     }
   },
   methods: {
