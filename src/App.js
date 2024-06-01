@@ -1,5 +1,6 @@
 import SwimLane from './components/SwimLane.vue';
 import imageData from './assets/data.json'; 
+import './App.css';
 export default {
   name: 'App',
   components: {

@@ -55,7 +55,6 @@
 .nav-button {
   height: 277px;
   width: 75px;
- 
   border: none;
   cursor: pointer;
   font-size: 25px;
@@ -88,23 +87,22 @@
 
 .nav-card-img {
   margin-bottom: 15px;
-  width: 200px;
+  width: 160px;
   height: 206px;
   opacity: 0.2;
 }
 
 .nav-card-title {
     background-image: linear-gradient(90deg, #1C1C1E 33.33%, #121212 65.62%);
-  display: flex;
+    display: flex;
     align-items: start;
     opacity: 0.2;
     font-size: 10px;
     color: white;
     width: 119px;
-    padding: 6px;
-    box-sizing: border-box;
+   
     flex-direction: column;
-    overflow: hidden;
+   
    
 }
 
