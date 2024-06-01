@@ -1,12 +1,13 @@
 .swim-lane {
   margin: 20px 0;
   padding: 10px;
-
 }
 
-h2 {
-  margin: 0 0 10px 0;
-  font-size: 1.5em;
+.swim-lane-title {
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  margin-left: 6px;
 }
 
 .cards-container {
@@ -18,8 +19,8 @@ h2 {
 .cards {
   display: flex;
   overflow: hidden;
-  padding: 10px 0;
-  gap: 1px;
+  padding: 17px;
+  gap: 2px;
 }
 
 .card {
@@ -52,25 +53,68 @@ h2 {
 }
 
 .nav-button {
-  height: 275px;
-  background: rgba(0, 0, 0, 0.378);
+  height: 277px;
+  width: 75px;
+ 
   border: none;
-  color: white;
-  padding: 10px;
   cursor: pointer;
-  font-size: 3em;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
 }
 
 .nav-button.left {
-  left: -74px;
-  position: absolute;
-  width: 4rem;
+  background: linear-gradient(to right, rgba(6, 6, 6, 21), rgba(6, 6, 6, 0.2) 50%);
+  left: -5px;
 }
+
 .nav-button.right {
-  width: 4rem;
-  position: absolute;
-  right: -73px;
+  background: linear-gradient(to left, rgba(6, 6, 6, 1) 50%, rgba(6, 6, 6, -0.3));
+  right: -5px;
 }
+
+.nav-card-content {
+  width: 86px;
+  margin: 0;
+  display: flex;
+  height: 261px;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.nav-card-img {
+  margin-bottom: 15px;
+  width: 200px;
+  height: 206px;
+  opacity: 0.2;
+}
+
+.nav-card-title {
+    background-image: linear-gradient(90deg, #1C1C1E 33.33%, #121212 65.62%);
+  display: flex;
+    align-items: start;
+    opacity: 0.2;
+    font-size: 10px;
+    color: white;
+    width: 119px;
+    padding: 6px;
+    box-sizing: border-box;
+    flex-direction: column;
+    overflow: hidden;
+   
+}
+
+.nav-icon {
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  z-index: 2;
+}
+
 .new-label {
   text-align: center;
   margin-top: -11px;
@@ -87,4 +131,31 @@ h2 {
 .title {
   display: flex;
   flex-direction: column;
+}
+
+.swim-lane-title:hover,
+.card:hover,
+.nav-button:hover {
+  outline: 2px solid #177ec9;
+}
+
+.swim-lane:focus,
+.swim-lane-title:focus,
+.card:focus,
+.nav-button:focus {
+  outline: 2px solid #177ec9;
+}
+
+.cards {
+  transition: transform 0.5s ease-in-out;
+}
+
+.nav-button:hover,
+.nav-button:focus {
+  transform: scale(1.2);
+}
+
+.card:hover,
+.card:focus {
+  transform: scale(1.1);
 }

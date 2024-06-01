@@ -1,5 +1,5 @@
 import SwimLane from './components/SwimLane.vue';
-import imageData from './assets/data.json'; // Import JSON data
+import imageData from './assets/data.json'; 
 export default {
   name: 'App',
   components: {
@@ -8,7 +8,7 @@ export default {
   data() {
     return {
       lanes: [
-        { title: 'Most-Watch films', cards: generateCards(1, 12) },
+        { title: 'Most-Watched films', cards: generateCards(1, 12) },
       ]
     };
   }
