@@ -119,9 +119,10 @@
 }
 
 .new-label {
+  
   text-align: center;
   margin-top: -11px;
-  margin-bottom: 5px;
+  margin-bottom: 1px;
   width: 28px;
   padding: 3px;
   background-color: #efaa31;
@@ -132,6 +133,7 @@
 }
 
 .title {
+  line-height: 1.2;
   display: flex;
   flex-direction: column;
 }
@@ -160,9 +162,15 @@
 
 .card:hover,
 .card:focus {
+ transition: all .2s ease;
+-webkit-transition: all .2s ease;;
   transform: scale(1.1);
 }
-.card:hover .title,
-.card:focus .title {
-  border-bottom: 2px solid #177ec9;
+.card:hover .content,
+.card:focus .content {
+  outline: solid 2px #177ec9;
+  padding: 3px;
 }
+
+
+  

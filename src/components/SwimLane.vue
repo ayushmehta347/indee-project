@@ -32,7 +32,7 @@
           <div class="card-title">
             <div class="title">
               <span v-if="card.status === 'New'" class="new-label">New</span>
-              {{ card.title }}
+             <div class="content"> {{ card.title }}</div>
             </div>
           </div>
         </div>
