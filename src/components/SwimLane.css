@@ -39,7 +39,7 @@
 }
 
 .card-title {
-  background-image: linear-gradient(90deg, #1C1C1E 33.33%, #121212 65.62%);
+  background-image: linear-gradient(90deg, #1c1c1e 33.33%, #121212 65.62%);
   border-radius: 2px;
   height: 3rem;
   background-color: rgba(0, 0, 0, 0.58);
@@ -65,13 +65,20 @@
 }
 
 .nav-button.left {
-background: linear-gradient(to right, #06060B 34%, rgba(6, 6, 6, -0.3));
+  background: linear-gradient(
+    to right,
+    rgba(6, 6, 6, 1)50%,
+    rgba(6, 6, 6, -0.3) 
+  );
   left: -5px;
- 
 }
 
 .nav-button.right {
-  background: linear-gradient(to left, rgba(6, 6, 6, 1) 50%, rgba(6, 6, 6, -0.3));
+  background: linear-gradient(
+    to left,
+    rgba(6, 6, 6, 1) 50%,
+    rgba(6, 6, 6, -0.3)
+  );
   right: -5px;
 }
 
@@ -94,17 +101,14 @@ background: linear-gradient(to right, #06060B 34%, rgba(6, 6, 6, -0.3));
 }
 
 .nav-card-title {
-    background-image: linear-gradient(90deg, #1C1C1E 33.33%, #121212 65.62%);
-    display: flex;
-    align-items: start;
-    opacity: 0.2;
-    font-size: 10px;
-    color: white;
-    width: 119px;
-   
-    flex-direction: column;
-   
-   
+  display: flex;
+  align-items: start;
+  opacity: 0.2;
+  font-size: 10px;
+  color: white;
+  width: 119px;
+
+  flex-direction: column;
 }
 
 .nav-icon {

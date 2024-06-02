@@ -1,9 +1,25 @@
 [
-  { "img": "assets/images/image1.png", "title": "Oppenheimer" ,"status":"false"},
-  { "img": "assets/images/image2.png", "title": "Past Lives" ,"status":"false"},
-  { "img": "assets/images/image3.png", "title": "Polite Society" ,"status":"false"},
+  {
+    "img": "assets/images/image1.png",
+    "title": "Oppenheimer",
+    "status": "false"
+  },
+  {
+    "img": "assets/images/image2.png",
+    "title": "Past Lives",
+    "status": "false"
+  },
+  {
+    "img": "assets/images/image3.png",
+    "title": "Polite Society",
+    "status": "false"
+  },
   { "img": "assets/images/image4.png", "title": "Robots", "status": "false" },
-  { "img": "assets/images/image5.png", "title": "Sanctuary", "status": "false" },
+  {
+    "img": "assets/images/image5.png",
+    "title": "Sanctuary",
+    "status": "false"
+  },
   {
     "img": "assets/images/image6.png",
     "title": "Talk To Me",
@@ -14,7 +30,7 @@
     "title": "About My Father",
     "status": "true"
   },
-  { "img": "assets/images/image8.png", "title": "Air","status":"false" },
+  { "img": "assets/images/image8.png", "title": "Air", "status": "false" },
   {
     "img": "assets/images/image9.png",
     "title": "Are You There God? It’s Me, Margaret.",
@@ -35,6 +51,4 @@
     "title": "Beau Is Afraid",
     "status": "false"
   }
-  
-  
 ]

@@ -1,6 +1,6 @@
 <template>
   <div class="swim-lane" tabindex="0" @keydown="handleKeyDown">
-    <span style="margin-left: 25px" tabindex="0" class="swim-lane-title">{{ title }}</span>
+    <span style="margin-left: 25px" tabindex="0"  class="swim-lane-title">{{ title }}</span>
     <div class="cards-container">
       <button 
         ref="leftNavButton"

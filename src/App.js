@@ -16,7 +16,6 @@ export default {
 };
 
 
-
 function generateCards(start, end) {
   const cards = [];
   for (let i = start; i <= end; i++) {
