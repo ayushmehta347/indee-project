@@ -58,10 +58,6 @@
   </div>
 </template>
 
-<script src="./SwimLane.js">
+<script src="./SwimLane.js"></script>
 
-</script>
-
-<style scoped src="./SwimLane.css">
-
-</style>
+<style scoped src="./SwimLane.css"></style>
