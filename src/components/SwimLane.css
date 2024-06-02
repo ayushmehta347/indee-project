@@ -65,8 +65,9 @@
 }
 
 .nav-button.left {
-  background: linear-gradient(to right, rgba(6, 6, 6, 21), rgba(6, 6, 6, 0.2) 50%);
+background: linear-gradient(to right, #06060B 34%, rgba(6, 6, 6, -0.3));
   left: -5px;
+ 
 }
 
 .nav-button.right {
