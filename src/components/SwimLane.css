@@ -162,3 +162,9 @@
 .card:focus {
   transform: scale(1.1);
 }
+
+.card:hover .title,
+.card:focus .title {
+ 
+  border-bottom: 2px solid #177ec9;
+}
